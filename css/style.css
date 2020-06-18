@@ -1,0 +1,122 @@
+img{
+    max-width: 100%
+}
+body{
+    margin: 0;
+}
+header{
+    box-shadow: 0px 5px 20px #afaaaa29;
+    /* width: 1200px; */
+    /* margin: auto; */
+    padding: 20px;
+}
+.wrapper{
+    width: 1200px;
+    background: #a7a7a72b;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    /* float: right; */
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 20px;
+    color: #324358;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    color: #0c66ff;
+}
+section{
+    padding: 100px 0;
+}
+.about-section{
+    /* font-size: 95px; */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-section h1{
+    font-size: 65px;
+    color: #465974;
+    margin: 0 auto;
+    max-width: 850px;
+}
+.about-section h1 span{
+    color: #0c66ff;
+    text-transform: capitalize;
+}
+.about-section p{
+    margin: 0;
+    font-size: 20px;
+    color: #465974;
+}
+section img{
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
+
+.feature-section{}
+.column{
+    width: 100%;
+    float: left;
+}
+.feature{}
+.feature h2{
+    font-size: 50px;
+    color: #465974;
+    margin: 0;
+}
+.feature h2 span{
+    color: #F25767
+}
+.feature p{
+        margin: 0;
+    font-size: 20px;
+    color: #465974;
+}
+
+
+
+.blog-section{}
+.col{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.blog{
+    padding: 20px;
+    box-shadow: 0px 0px 10;
+}
+.blog img{
+    width: 300px;
+    height: 300px;
+}
+.blog h3{
+    color: #465974;
+    font-size: 20px;
+}
+.blog p{
+    color: #465974;
+    font-size: 20px;
+}
